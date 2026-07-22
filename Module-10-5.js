@@ -68,10 +68,15 @@ console.log(Array.isArray(me ));        // false ;
 //slice: slice() কোনো array থেকে একটা অংশ কেটে (copy করে) নতুন array তৈরি করে।
 
 const fruits =['apple', 'mango', 'orange','banana'];
-const flowers = ['rose', 'lily', 'sunFlowers']
+const flowers = ['rose', 'lily', 'sunFlowers'];
+const productPrise = [ 10,20,30,40,50,60,70,80,90]
+
 // const fruitsBox = fruits.slice(start , end);
 const fruitsBox = fruits.slice(1 , 3);
 console.log(fruitsBox);
 
 const flowersBox = flowers.slice(0,2);
 console.log(flowersBox);
+
+const expensivePrise = productPrise.slice(3, 7);
+console.log(expensivePrise);
